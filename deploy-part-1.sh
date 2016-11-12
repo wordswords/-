@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# set git config
+git config --global user.email contact@davidcraddock.net
+git config --global user.name David Craddock
+
 # backup
 rm -rf ~/.olddotfiles
 mkdir -p ~/.olddotfiles
